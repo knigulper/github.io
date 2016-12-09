@@ -1,0 +1,41 @@
+</script>
+<script type='application/ld+json'>
+// <![CDATA[
+		{
+			"@context": "http://schema.org",
+			"@type": "WebSite",
+			"url": "http://knigulper.blogspot.com",
+			"potentialAction": {
+			"@type": "SearchAction",
+			"target": "http://knigulper.blogspot.com/all-results/?q={q}&utm_source=google&utm_medium=search&utm_campaign=search_organic",
+			"query-input": "required name=q"
+			}
+		}
+// ]]>
+		</script>
+<script type='application/ld+json'>
+// <![CDATA[
+		{
+			"@context": "schema.org",
+            "@type": "Organization",
+            "url": "http://knigulper.blogspot.com",
+            "logo": "https://s14.postimg.org/7m3d2aj3l/ee4a67b9_cb51_4f33_aa07_979dbd61a1b7.png"
+             }
+        
+// ]]>
+		</script>
+<script type='application/ld+json'>
+{
+  "@context": "http://schema.org",
+  "@type": "Blog",
+  "name": "Knigulper",
+  "url": "http://knigulper.blogspot.com",
+  "sameAs": [
+    "http://www.facebook.com/knigulper",
+    "http://twitter.com/knigulper",
+    "http://www.linkedin.com/in/farooq-ahmad-bhat-8b590690",
+    "http://plus.google.com/+FarooqAhmadBhatfarooqbhat"
+  ]
+}
+</script>
+<script type='text/javascript'>
