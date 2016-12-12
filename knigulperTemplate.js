@@ -5,3 +5,10 @@ eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
 
 //]]>
 </script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#div1").load("demo_test.txt");
+    });
+});
+</script>
