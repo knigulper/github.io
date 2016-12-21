@@ -115,7 +115,7 @@ kbd {
     padding: 1px 5px;
 }
 
-.separator img .mask {
+.separator .img {
    position:absolute; /* Center the mask */
    top:50px;
    left:100px;
@@ -133,7 +133,7 @@ kbd {
    transition:all 0.3s ease-in-out;
 }
 
-.separator img:hover .mask {
+.separator img:hover  {
    opacity: 0;
    border:0px solid rgba(0,0,0,0.7);
    visibility:hidden;
