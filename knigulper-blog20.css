@@ -1,5 +1,4 @@
 
-
 /*===================================== CSS Social Icons =====================================*/
 .topbar-wrapper {background:#fff;position:relative;z-index:96;overflow:hidden;margin:0 auto;padding:10px;border-bottom: 1px solid rgb(223, 223, 223);}
 .top-wrappers {padding:0;position:static;max-width:1050px;margin:0 auto;}
@@ -117,9 +116,88 @@ span.post-count {font-size:11px;font-weight:700;}
 #ArchiveList {padding: 10px;}
 #ArchiveList select {width: 100%;padding: 15px;margin-bottom: 5px;    font-family: &#39;Montserrat&#39;, sans-serif;border: 3px solid rgba(201, 201, 201, 0.52);font-size:13px;}
 
+@media screen and (max-width:1066px) {
+#outer-wrapper {margin:0 auto;}
+.header-right {float:right;padding:0;overflow:hidden;margin:0;max-width:640px!important;}
+.header-right img {display:block;}
+.cd-main-header {height:100px}
+#header {max-width: 300px;}
+#search-form {width:250px;}
+#recent1 .recent-box {width:49.2%}
+.share-post{display:none;}}
+
+
+@media screen and (max-width:960px) {
+#outer-wrapper {margin:0 auto;border:none;box-shadow:none;}
+#header h1,#header p,#header,.header-right,#header .description{top: -31px;width:100%;float:left;text-align:center;}
+#header {margin:20px auto;padding:0 30px;}
+.header-right img, .header-right iframe{margin:0 auto;max-width:100%;}
+#header-wrapper{padding:0 10px;}
+.header-wrapper2 {padding:0}
+#footer-widgetfix {width:100%;overflow:hidden;}
+#footer-widgetfix .footer-widget {width:46%;float:left;margin-left:20px;}
+#header-inner {left:0;right:0;}}
+
+@media only screen and (max-width:768px){
+#post-wrapper, #sidebar-wrapper,#footer-col1,#footer-col2,#footer-col3 {width:100%;max-width:100%;padding-left:0;}
+#header {background:none;}
+.post-body img {max-width:90%;}
+.post-image {margin:0 10px 0 0;}
+.sidebar-inner, .post-inner {padding:15px 0 0px;}
+.copyleft,#copyright {float:none;text-align:center;margin:10px auto;}
+#recent1 .recent-box{width:49%}
+#search-form{float:none;margin-bottom:5px}}
+
+
+@media only screen and (max-width:640px){
+#header h1,#header p,#header,.header-right,#header .description{width:100%;float:left;text-align:center;}
+.header-right{float:none;margin:0 auto;text-align:center;}
+.header-right img, .header-right iframe{float:none;margin:0 auto;text-align:center;}
+#header-wrapper{padding:0;margin:20px 0 0 0;min-height:150px;}
+#header {min-width:initial;background:none;margin:20px auto;padding:0 5px;}
+#header-inner {top:25%;}
+#header .description {font-size:100%;line-height:1.5;margin-left:0}
+#footer-widgetfix {width:100%;overflow:hidden;}
+#footer-widgetfix .footer-widget {width:92%;float:left;margin-left:20px;}
+.pagenav .pages, #breakingnews {display:none;}
+#search{padding-left:0}
+#label_with_thumbs li {padding:10px}
+#recent1 .recent-box {width:49%}
+.post-image img {width:200px!important; height:150px!important;}
+h2.post-title, h1.post-title {font-size:15px!important;}
+.post-info {font-size:8px!important}}
+
+
+@media only screen and (max-width:480px){
+#outer-wrapper {margin:0 auto;}
+.header-right{float:none;margin:0 auto;text-align:center;}
+.header-right img, .header-right iframe{float:none;margin:0 auto;text-align:center;}
+.post {margin:0 0 8px;padding:8px;}
+.post-image {margin-bottom:5px}
+.post-image img {width:100%!important; height:150px!important;}
+h2.post-title a, h1.post-title a, h2.post-title, h1.post-title {font-size:18px;padding:5px;clear:both;}
+.comments .comment-block, .comments .comments-content .inline-thread {
+padding:10px !important;}
+.comment .comment-thread.inline-thread .comment {margin: 0 0 0 0 !important;}
+#comments .click-comment{display:none;}
+#related_posts {padding:0;}
+.post-info {font-size:12px;display:none!important}
+#feedContainer li {width:100%;}
+.authorLeft{float:none;width:120px;margin:0 auto}
+.authorDetails{text-align:center}
+.authorDetails h2{float:none}
+.authorDetails span{float:none}
+.articleAuthor .authorContent p{text-align:center}
+.topbar-wrapper, .share-post, #related_posts p {display:none;}
+#recent1 .recent-box {width:100%;margin-bottom:10px}
+ul#relpost_img_sum li, .pager-right, .pager-left {width:100%}}
+
+@media screen and (max-width:320px){
+.header-right{float:none;margin:0 auto;text-align:center;}
+.header-right img, .header-right iframe{float:none;margin:0 auto;text-align:center;}
+.post {padding:6px;}}
 /* Code Box ----------------------------------------------- */  
-.code { background:pink; background-repeat:no-repeat; border: solid #5C7B90;border-radius:10px;box-shadow:0px 0px 13px #219DFC; border-width: 1px 1px 1px 25px; color: black; font: 13px 'Courier New', Courier, monospace; line-height: 16px; margin: 10px 0 10px 10px; max-height: 200px; min-height: 16px; overflow: auto; padding: 10px 10px 10px; width: 90%; } .code:hover { background: #F08080; background-repeat:no-repeat; }
+.code { background:pink; background-repeat:no-repeat; border: solid #5C7B90;border-radius:10px;box-shadow:0px 0px 13px #219DFC; border-width: 1px 1px 1px 25px; color: black; font: 13px &#39;Courier New&#39;, Courier, monospace; line-height: 16px; margin: 10px 0 10px 10px; max-height: 200px; min-height: 16px; overflow: auto; padding: 10px 10px 10px; width: 90%; } .code:hover { background: #F08080; background-repeat:no-repeat; }
 #Gadget1{display: none !important;}
 
-pre.source-code { background:pink; background-repeat:no-repeat; border: solid #5C7B90; border-width: 5px 1px 1px 25px; color: black; font: 13px 'Courier New', Courier, monospace; line-height: 16px; margin: 10px 0 10px 10px; max-height: 200px; min-height: 16px; overflow: auto; padding: 10px 10px 10px; width: 90%; } .code:hover { background: #F08080; background-repeat:no-repeat; }
-
+pre.source-code { background:pink; background-repeat:no-repeat; border: solid #5C7B90; border-width: 5px 1px 1px 25px; color: black; font: 13px &#39;Courier New&#39;, Courier, monospace; line-height: 16px; margin: 10px 0 10px 10px; max-height: 200px; min-height: 16px; overflow: auto; padding: 10px 10px 10px; width: 90%; } .code:hover { background: #F08080; background-repeat:no-repeat; }
