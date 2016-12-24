@@ -6,7 +6,7 @@
   text-align: center;
   line-height: 1.6em;
   padding: 8px 20px;
-  background: #FC4F3F;
+  background: #0020C2;
   color: #fff;
   position: relative;
   font-weight: normal;
@@ -14,7 +14,7 @@
 }
 
 #close_welcome_bar {
-  background: #E74636;
+  background: #1F45FC;
   display: inline-block;
   cursor: pointer;
   padding: 8px 15px;
