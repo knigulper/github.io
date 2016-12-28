@@ -9,9 +9,9 @@
 // label.
 // ---------------------------------------------------
 // Author: Farooq Ahmad Bhat
-// Url: http://knigulper.blogspot.com
+// Url: http://www.knigulper.com
 // Version: 2
-// Date: 2007-04-12
+// Date: 2016-04-12
 // ---------------------------------------------------
 // global arrays
 
