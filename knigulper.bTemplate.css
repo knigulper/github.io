@@ -1,0 +1,27 @@
+<b:template-skin>
+body#layout div.section {background-color:transparent;border:0;font-family:sans-serif;margin:0;overflow:visible;padding:0;position:relative}
+body#layout .top-tab-widget-menu ul,body#layout ul,#layout ul,body#layout div.section h4,#layout div.section h4 {display:none;}
+body#layout .draggable-widget .widget-wrap2 {background:#17CC90}
+body#layout .add_widget {background-color: rgba(84, 84, 84, 0.75);}
+body#layout .add_widget a {color: white}
+body#layout .editlink {color:#fff !important;background-color: #3D3D45;padding: 2px; padding-left: 15px; padding-right: 15px; border-radius: 50px;}
+
+
+body#layout #header {width:30%;margin:4px;float:left; background-color: #EBFFFB; padding:5px!important; border: 1px solid #D8D6D6; margin-bottom: 10px;}
+body#layout #header:before {content: &quot;Header&quot;; font-size: 18px; color: #484848; display: inline-block; font-family: serif; font-weight: 700;margin-bottom: 10px;}
+body#layout #header-right {width:64%;margin:4px;background-color: #EBFFFB; padding:5px!important; border: 1px solid #D8D6D6; margin-bottom: 10px;}
+body#layout #header-right:before {content: &quot;Header ad slot (728x90 px )&quot;; font-size: 18px; color: #484848; display: inline-block; font-family: serif; font-weight: 700;margin-bottom: 10px;}
+body#layout #recent1 {width: 98%;margin:4px;float: left; background-color: #EBFFFB; padding: 20px 0 !important; border: 1px solid #D8D6D6; margin-bottom: 10px;}
+body#layout #recent1 .widget {width:90%;left: 20px; top: 10px;}
+body#layout #recent1:before {content: &quot;Featured Posts&quot;; font-size: 18px; color: #484848; display: inline-block; font-family: serif; font-weight: 700;}
+body#layout #adpost {width: 98%;margin:4px;float: left; background-color: #EBFFFB; padding: 20px 0 !important; border: 1px solid #D8D6D6; margin-bottom: 10px;}
+body#layout #adpost .widget {width:90%;left: 20px; top: 10px;}
+body#layout #adpost:before {content: &quot;Homepage only ad slot (728x90 px )&quot;; font-size: 18px; color: #484848; display: inline-block; font-family: serif; font-weight: 700;}
+body#layout #banner {width: 98.5%;margin:4px;float: left; background-color: #EBFFFB; padding: 20px 0 !important; border: 1px solid #D8D6D6; margin-bottom: 10px;}
+body#layout #banner:before {content: &quot;Footer ad slot (970x90 px )&quot;; font-size: 18px; color: #484848; display: inline-block; font-family: serif; font-weight: 700;margin-bottom: 10px;}
+body#layout #sidebar-wrapper {width:30%;margin:4px;float:right; background-color: #EBFFFB; padding:5px!important; border: 1px solid #D8D6D6; margin-bottom: 10px;}
+body#layout #sidebar-wrapper:before {content: &quot;Sidebar Wrapper&quot;; font-size: 18px; color: #484848; display: inline-block; font-family: serif; font-weight: 700;margin-bottom: 10px;}
+body#layout #footer-wrapper {width:97.5%;margin:4px;float:right; background-color: #EBFFFB; padding:5px!important; border: 1px solid #D8D6D6; margin-bottom: 10px;}
+body#layout #footer-wrapper:before {content: &quot;Footer Wrapper&quot;; font-size: 18px; color: #484848; display: inline-block; font-family: serif; font-weight: 700;margin-bottom: 10px;}
+body#layout #footer-Link {width:97.5%;margin:4px;float:right; background-color: #EBFFFB; padding:5px!important; border: 1px solid #D8D6D6; margin-bottom: 10px;}
+body#layout #footer-Link:before {content: &quot;Footer Menu Link&quot;; font-size: 18px; color: #484848; display: inline-block; font-family: serif; font-weight: 700;margin-bottom: 10px;}
