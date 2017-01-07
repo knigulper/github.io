@@ -272,7 +272,7 @@ td.toc-entry-col2 {
     text-align: center;
 }
 
-#welcome_bar {
+#knigulper_bar {
   width: auto;
   height: auto;
   display: block;
@@ -286,7 +286,7 @@ td.toc-entry-col2 {
  font-size:15px;
 }
 
-#close_welcome_bar {
+#close_knigulper_bar {
   background: #E74636;
   display: inline-block;
   cursor: pointer;
@@ -302,8 +302,8 @@ td.toc-entry-col2 {
 
 .addthis_sharing_toolbox {clear:initial!important;}
 
-#close_welcome_bar:hover { background: #CD5C5C}
+#close_knigulper_bar:hover { background: #CD5C5C}
 
-#welcome_bar a{background:#fff;color:#6ba4d3;padding:2px 6px;border-radius:4px;margin-left:5px;font-weight:600;}
-#welcome_bar a:hover{background:#CD5C5C;color:#fff;}
+#knigulper_bar a{background:#fff;color:#6ba4d3;padding:2px 6px;border-radius:4px;margin-left:5px;font-weight:600;}
+#knigulper_bar a:hover{background:#CD5C5C;color:#fff;}
 
