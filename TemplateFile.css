@@ -1,35 +1,23 @@
-.btn{list-style:none;text-align:center;margin:10px!important;padding:10px!important;font-size:14px;clear:both;display:inline-block;text-decoration:none!important;color:#FFF!important}
 .btn ul {margin:0;padding:0}
 .btn li{display:inline;margin:5px;padding:0;list-style:none;}
-.demo,.download{padding:12px 15px!important;color:#fff!important;font-weight:700;font-size:14px;font-family:Open Sans,sans-serif;text-align:center;text-transform:uppercase;border-radius:3px;opacity:.95;border:0;letter-spacing:2px;transition:all .2s ease-out}
-.demo {background-color:#3498DB;}
-.download {background-color:#1ABC84;}
-.demo:hover {background-color:#60B8F4;color:#fff;border-bottom:2px solid #3498DB; opacity:1;}
-.download:hover {background-color:#49DDAA;color:#fff;border-bottom:2px solid #1ABC84;opacity:1;}
-.demo:before {content:&#39;\f135&#39;;display:inline-block;font-weight:normal;vertical-align:top;margin-right:10px;width:16px;height:16px;line-height:24px;font-family:fontawesome;transition:all 0.5s ease-out;}
-.download:before {content:&#39;\f019&#39;;display:inline-block;font-weight:normal;vertical-align:top;margin-right:10px;width:16px;height:16px;line-height:24px;font-family:fontawesome;transition:all 0.5s ease-out;}
-.button {
-    background-color: none;
-    border: none;
-    color: white;
-    padding: 2px 4px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 13px;
-    margin: 2px 1px;
-    
-}
-.button {
--webkit-box-shadow: 0px 0px 15px 10px rgba(255, 255, 255, .75);
-box-shadow: 0px 0px 15px 10px rgba(255, 255, 255, .75);
-}
-.button:hover {
--webkit-box-shadow: 0px 0px 15px 5px rgba(0, 185, 233, .75);
-box-shadow: 0px 0px 15px 5px rgba(0, 185, 233, .75);
--webkit-transition: all 0.7s ease;
-transition: all 0.7s ease;
-}
+.demo,.download,.buy, .install, .docs{padding:15px 15px 15px 0!important;color:#fff!important;font-weight:700;font-size:14px;text-align:center;text-transform:uppercase;opacity:.95;border:0;transition:all .2s ease-out}
+.buy2 {padding: 15px 15px!important; color: #fff!important; font-weight: 400; font-size: 18px; text-align: center; text-transform: uppercase;border: 0;}
+.docs {background-color:#2ecc71;}
+.docs:hover {opacity:9;}
+.demo {background-color:#1FA376}
+.install {background-color:#CE102A}
+.buy {background-color:#567883;}
+.buy2 { background-color: #f1ae28; }
+.download {background-color:#F99517;}
+.demo:hover {background-color:rgba(31, 163, 118, 0.8);color:#fff;opacity:1;}
+.install:hover {opacity:0.9;color:#fff}
+.download:hover {background-color:rgba(249, 149, 23, 0.78);color:#fff;opacity:1;}
+.buy:hover {background-color:#668E9B;color:#fff;opacity:1;}
+.demo:before {content: '\f06e'; display: inline-block; font-weight: normal; margin-right: 10px; font-family: fontawesome; transition: all 0.5s ease-out; background: rgba(0, 0, 0, 0.08); line-height: 17px; padding: 15px 10px;}
+.install:before {content:'\f019';display: inline-block; font-weight: normal; margin-right: 10px; font-family: fontawesome; transition: all 0.5s ease-out; background: rgba(0, 0, 0, 0.08); line-height: 17px; padding: 15px 10px;}
+.buy:before {content:'\f07a';display: inline-block; font-weight: normal; margin-right: 10px; font-family: fontawesome; transition: all 0.5s ease-out; background: rgba(0, 0, 0, 0.08); line-height: 17px; padding: 15px 10px;}
+.download:before {content:'\f019';display: inline-block; font-weight: normal; margin-right: 10px; font-family: fontawesome; transition: all 0.5s ease-out; background: rgba(0, 0, 0, 0.08); line-height: 17px; padding: 15px 10px;}
+.docs:before {content:'\f121';display: inline-block; font-weight: normal; margin-right: 10px; font-family: fontawesome; transition: all 0.5s ease-out; background: rgba(0, 0, 0, 0.08); line-height: 17px; padding: 15px 10px;}
 
 .forum {
    display: inline-block;
