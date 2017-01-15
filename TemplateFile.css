@@ -1,3 +1,4 @@
+.btn{list-style:none;text-align:center;margin:10px!important;padding:10px!important;font-size:14px;clear:both;display:inline-block;text-decoration:none!important;color:#FFF!important}
 .btn ul {margin:0;padding:0}
 .btn li{display:inline;margin:5px;padding:0;list-style:none;}
 .demo,.download,.buy, .install, .docs{padding:15px 15px 15px 0!important;color:#fff!important;font-weight:700;font-size:14px;text-align:center;text-transform:uppercase;opacity:.95;border:0;transition:all .2s ease-out}
