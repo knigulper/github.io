@@ -296,7 +296,7 @@ td.toc-entry-col2 {
 #knigulper_bar a:hover{background:#CD5C5C;color:#fff;}
 
 /***** OnClick PopUp Email Subscription Form CSS *****/
-#popup-wrap .popup-button { background: #996600 url("http://2.bp.blogspot.com/-5BeaRyWo6FQ/Vc9zn8NV2oI/AAAAAAAADU0/tGTO9XGumUs/s1600/envelop.png") no-repeat scroll center center; border-radius: 50%; bottom: 25px; cursor: pointer; height: 60px; left: 25px; position: fixed; width: 60px; z-index: 99999; }
+#popup-wrap .popup-button { background: #fff url("https://2.bp.blogspot.com/-Z1BWVmdfsSc/WL5NnB9eLgI/AAAAAAAACHY/GZNEaa63B-8gBZ9p1ssYuPtntdC-3eU5ACLcB/s1600/knigulper.com-rss-icon.png") no-repeat scroll center center; border-radius: 50%; bottom: 25px; cursor: pointer; height: 60px; left: 25px; position: fixed; width: 60px; z-index: 99999; }
 #popup-wrap .popup-button:hover { background-color: #70261D; }
 
 #popup-wrap .popup-bg { opacity: 0; visibility: hidden; position: fixed; top: 0; right: 0; bottom: 0; left: 0; background: rgba(0,0,0, .8); transition: opacity .25s ease; z-index: 999999; }
