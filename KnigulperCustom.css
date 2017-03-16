@@ -1,0 +1,283 @@
+.btn{list-style:none;text-align:center;margin:10px!important;padding:10px!important;font-size:14px;clear:both;display:inline-block;text-decoration:none!important;color:#FFF!important}
+.btn ul {margin:0;padding:0}
+.btn li{display:inline;margin:5px;padding:0;list-style:none;}
+.demo,.download,.buy, .install, .docs{padding:15px 15px 15px 0!important;color:#fff!important;font-weight:700;font-size:14px;text-align:center;text-transform:uppercase;opacity:.95;border:0;transition:all .2s ease-out}
+.buy2 {padding: 15px 15px!important; color: #fff!important; font-weight: 400; font-size: 18px; text-align: center; text-transform: uppercase;border: 0;}
+.docs {background-color:#2ecc71;}
+.docs:hover {opacity:9;}
+.demo {background-color:#1FA376}
+.install {background-color:#CE102A}
+.buy {background-color:#567883;}
+.buy2 { background-color: #f1ae28; }
+.download {background-color:#F99517;}
+.demo:hover {background-color:rgba(31, 163, 118, 0.8);color:#fff;opacity:1;}
+.install:hover {opacity:0.9;color:#fff}
+.download:hover {background-color:rgba(249, 149, 23, 0.78);color:#fff;opacity:1;}
+.buy:hover {background-color:#668E9B;color:#fff;opacity:1;}
+.demo:before {content: '\f06e'; display: inline-block; font-weight: normal; margin-right: 10px; font-family: fontawesome; transition: all 0.5s ease-out; background: rgba(0, 0, 0, 0.08); line-height: 17px; padding: 15px 10px;}
+.install:before {content:'\f019';display: inline-block; font-weight: normal; margin-right: 10px; font-family: fontawesome; transition: all 0.5s ease-out; background: rgba(0, 0, 0, 0.08); line-height: 17px; padding: 15px 10px;}
+.buy:before {content:'\f07a';display: inline-block; font-weight: normal; margin-right: 10px; font-family: fontawesome; transition: all 0.5s ease-out; background: rgba(0, 0, 0, 0.08); line-height: 17px; padding: 15px 10px;}
+.download:before {content:'\f019';display: inline-block; font-weight: normal; margin-right: 10px; font-family: fontawesome; transition: all 0.5s ease-out; background: rgba(0, 0, 0, 0.08); line-height: 17px; padding: 15px 10px;}
+.docs:before {content:'\f121';display: inline-block; font-weight: normal; margin-right: 10px; font-family: fontawesome; transition: all 0.5s ease-out; background: rgba(0, 0, 0, 0.08); line-height: 17px; padding: 15px 10px;}
+
+.forum {
+   display: inline-block;
+  border-radius: 6px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.7s;
+  cursor: pointer;
+  margin: 5px;
+}
+.forum span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.7s;
+}
+
+.forum span:after {
+  content: &#39;&#187;&#39;;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.7s;
+}
+.forum:hover span {
+  padding-right: 25px;
+}
+
+.forum:hover {
+    width: 300px;
+}
+.groupy {
+   display: inline-block;
+  border-radius: 14px;
+  background-color: #00FFFF;
+  border: none;
+  color: #FFFFFF;
+  text-align: center: color: #0000FF;
+  font-size: 18px;
+  padding: 10px;
+  width: 160px;
+  transition: all 0.7s;
+  cursor: pointer;
+  margin: 5px;
+}
+.groupy span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.7s;
+}
+
+.groupy span:after {
+  content: &#39;&#187;&#39;;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.7s;
+}
+.groupy:hover span {
+  padding-right: 25px;
+}
+
+.groupy:hover {
+    width: 300px;
+}
+kbd {
+    border: 1px solid gray;
+    font-size: 1.2em;
+    box-shadow: 1px 0 1px 0 #eee,0 2px 0 2px #ccc,0 2px 0 3px #444;
+    line-height: 1.9em;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin: 2px 3px;
+    padding: 1px 5px;
+}
+ 
+#bp_toc {
+    color: #666;
+    margin: 0 auto;
+    padding: 0;
+    border: 1px solid #d2d2d2;
+    float: left;
+    width: 100%;
+}
+span.toc-note {
+    display: none;
+}
+#bp_toc tr:nth-child(2n) {
+    background: #f5f5f5;
+}
+td.toc-entry-col1 a {
+    font-weight: bold;
+    font-size: 14px;
+}
+.toc-header-col1,
+.toc-header-col2,
+.toc-header-col3  {
+background:#3e454c;
+}
+.toc-header-col1 {
+    padding: 10px;
+    width: 250px;
+}
+.toc-header-col2 {
+    padding: 10px;
+    width: 75px;
+}
+.toc-header-col3 {
+    padding: 10px;
+    width: 125px;
+}
+.toc-header-col1 a:link,
+.toc-header-col1 a:visited,
+.toc-header-col2 a:link,
+.toc-header-col2 a:visited,
+.toc-header-col3 a:link,
+.toc-header-col3 a:visited {
+    font-size: 13px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+.toc-header-col1 a:hover,
+.toc-header-col2 a:hover,
+.toc-header-col3 a:hover {
+    text-decoration: none;
+}
+.toc-entry-col1,
+.toc-entry-col2,
+.toc-entry-col3 {
+    padding: 5px;
+    padding-left: 5px;
+    font-size: 12px;
+}
+.toc-entry-col1 a,
+.toc-entry-col2 a,
+.toc-entry-col3 a {
+    color: #666;
+    font-size: 13px;
+    text-decoration: none
+}
+.toc-entry-col1 a:hover,
+.toc-entry-col2 a:hover,
+.toc-entry-col3 a:hover {
+    text-decoration:underline;
+}
+#bp_toc table {
+    width: 100%;
+    margin: 0 auto;
+    counter-reset: rowNumber;
+}
+.toc-entry-col1 {
+    counter-increment: rowNumber;
+}
+#bp_toc table tr td.toc-entry-col1:first-child::before {
+    content: counter(rowNumber);
+    min-width: 1em;
+       min-height: 3em;
+    float: left;
+    border-right: 1px solid #fff;
+    text-align: center;
+    padding: 0px 11px 1px 6px;
+    margin-right: 15px;
+}
+td.toc-entry-col2 {
+    text-align: center;
+}
+#knigulper_bar {
+  width: auto;
+  height: auto;
+  display: block;
+  text-align: center;
+  line-height: 1.6em;
+  padding: 8px 20px;
+  background: #CD5C5C;
+  color: #fff;
+  position: relative;
+  font-weight: normal;
+ font-size:15px;
+}
+
+#close_knigulper_bar {
+  background: #E74636;
+  display: inline-block;
+  cursor: pointer;
+  padding: 8px 15px;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 0 3px 3px 0;
+  border-left: 1px solid rgb(181, 31, 17);
+}
+
+.addthis_sharing_toolbox {clear:initial!important;}
+
+#close_knigulper_bar:hover { background: #CD5C5C}
+
+#knigulper_bar a{background:#fff;color:#6ba4d3;padding:2px 6px;border-radius:4px;margin-left:5px;font-weight:600;}
+#knigulper_bar a:hover{background:#CD5C5C;color:#fff;}
+
+/***** OnClick PopUp Email Subscription Form CSS *****/
+#popup-wrap .popup-button { background: #fff url("https://2.bp.blogspot.com/-Z1BWVmdfsSc/WL5NnB9eLgI/AAAAAAAACHY/GZNEaa63B-8gBZ9p1ssYuPtntdC-3eU5ACLcB/s1600/knigulper.com-rss-icon.png") no-repeat scroll center center; border-radius: 50%; bottom: 25px; cursor: pointer; height: 60px; left: 25px; position: fixed; width: 60px; z-index: 99999; }
+#popup-wrap .popup-button:hover { background-color: #70261D; }
+
+#popup-wrap .popup-bg { opacity: 0; visibility: hidden; position: fixed; top: 0; right: 0; bottom: 0; left: 0; background: rgba(0,0,0, .8); transition: opacity .25s ease; z-index: 999999; }
+#popup-wrap .popup-bg-close { position: absolute; top: 0; right: 0; bottom: 0; left: 0; cursor: pointer; }
+#popup-wrap .popup-trigger { display: none; }
+#popup-wrap .popup-trigger:checked + .popup-bg { opacity: 1; visibility: visible; }
+#popup-wrap .popup-trigger:checked + .popup-bg .popup-form { top: 0; }
+
+#popup-wrap .popup-form { transition: top .25s ease; position: absolute; top: -20%; right: 0; bottom: 0; left: 0; max-width: 400px; margin: auto; overflow: auto; padding: 2.5em; max-height: 280px; background: #404040; opacity: .8; text-align: center; overflow: hidden!important; border-style:solid; border-color:#fff; border-width:2px;}
+
+#popup-wrap .popup-inner { color: #fff; font-size: 15px; font-family: "Century Gothic", sans-serif; font-weight: bold; line-height: normal; }
+#popup-wrap .popup-title { display: block; font-size: 2em; font-weight: normal; margin-bottom: 20px; }
+#popup-wrap .popup-content { font-size: 16px; line-height: 26px; }
+#popup-wrap .popup-footer { font-size: 75%; font-style: italic; }
+#popup-wrap #mailbox, 
+#popup-wrap #subbutton { background: #A1362A; border: none; border-radius: 3px; box-sizing: border-box; color: #fff; font-family: "Century Gothic",sans-serif; font-size: 12px; font-weight: bold; line-height: 30px; padding: 10px 20px; width: 100%; }
+#popup-wrap #mailbox { margin: 0 0 10px; text-transform: none; text-align:center; background: #404040; opacity: .8; border-style:solid; border-color:#fff; border-width:1px; }
+#popup-wrap #subbutton { cursor: pointer; margin: 0; text-transform: uppercase; background: #9729f2; border-style:solid; border-color:#fff; border-width:1px; }
+#popup-wrap #subbutton:hover { background: #eda65a; }
+
+#popup-wrap .popup-form-close { position: absolute; right: 1em; top: 1em; width: 1.1em; height: 1.1em; cursor: pointer; }
+#popup-wrap .popup-form-close:after,
+#popup-wrap .popup-form-close:before { content: ''; position: absolute; width: 5px; height: 1.5em; background: #A1362A; display: block; transform: rotate(45deg); left: 50%; margin: -3px 0 0 -1px; top: 0; }
+#popup-wrap .popup-form-close:hover:after,
+#popup-wrap .popup-form-close:hover:before { background: #70261D; }
+#popup-wrap .popup-form-close:before { transform: rotate(-45deg); }
+/*============ OnClick Social Profile Icon Widget ============*/
+.social-profile-icons { margin: 20px 0; overflow: hidden; text-align: center; }
+.social-profile-icons ul { display: inline-block; margin: 0 auto !important; }
+.social-profile-icons ul li { background: transparent !important; border: none !important; float: left; list-style-type: none !important; margin: 0 4px 10px !important; padding: 0 !important; }
+.social-profile-icons ul li a, .social-profile-icons ul li a:hover { background: url("http://3.bp.blogspot.com/-qXV1qRPIjHY/UbqjmHPAHzI/AAAAAAAACUE/7_sAZf8tHLY/s1600/sprite_32x32.png") no-repeat scroll 0 0 #222; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%; display: block; height: 38px; overflow: hidden; text-indent: -999px; transition: all 0.25s linear 0s; width: 38px; border: 1px solid rgba(0, 0, 0, 0.5); }
+.social-profile-icons ul li.social-facebook a { background-position: -60px 3px; }
+.social-profile-icons ul li.social-twitter a { background-position: -253px 3px; }
+.social-profile-icons ul li.social-gplus a { background-position: -93px 3px; }
+.social-profile-icons ul li.social-pinterest a { background-position: -157px 3px; }
+.social-profile-icons ul li.social-rss a { background-position: -189px 3px; }
+.social-profile-icons ul li.social-facebook a:hover { background-color: #3b5998; }
+.social-profile-icons ul li.social-twitter a:hover { background-color: #00aced; }
+.social-profile-icons ul li.social-gplus a:hover { background-color: #dd4b39; }
+.social-profile-icons ul li.social-pinterest a:hover { background-color: #cb2027; }
+.social-profile-icons ul li.social-rss a:hover { background-color: #F87E12; }
+/*============ OnClick Email Subscription Widget CSS End ============*/
+
+/* Code Box ----------------------------------------------- */  
+.code { background:pink; background-repeat:no-repeat; border: solid #5C7B90;border-radius:10px;box-shadow:0px 0px 13px #219DFC; border-width: 1px 1px 1px 25px; color: black; font: 13px &#39;Courier New&#39;, Courier, monospace; line-height: 16px; margin: 10px 0 10px 10px; max-height: 200px; min-height: 16px; overflow: auto; padding: 10px 10px 10px; width: 90%; } .code:hover { background: #F08080; background-repeat:no-repeat; }
+#Gadget1{display: none !important;}
+
+pre.source-code { background:pink; background-repeat:no-repeat; border: solid #5C7B90; border-width: 5px 1px 1px 25px; color: black; font: 13px &#39;Courier New&#39;, Courier, monospace; line-height: 16px; margin: 10px 0 10px 10px; max-height: 200px; min-height: 16px; overflow: auto; padding: 10px 10px 10px; width: 90%; } .code:hover { background: #F08080; background-repeat:no-repeat; }
