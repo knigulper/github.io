@@ -1,0 +1,72 @@
+.ticker-wrapper.has-js{margin:20px 0;padding:0 20px;width:780px;height:32px;display:block;-webkit-border-radius:15px;-moz-border-radius:15px;border-radius:15px;background-color:#f8f0db;font-size:.75em}          
+.ticker{width:710px;height:23px;display:block;position:relative;overflow:hidden;background-color:#f8f0db}           
+.ticker-title{padding-top:9px;color:#900;font-weight:700;background-color:#f8f0db;text-transform:uppercase}           
+.ticker-content{margin:0;padding-top:9px;position:absolute;color:#1F527B;font-weight:700;background-color:#f8f0db;overflow:hidden;white-space:nowrap;line-height:1.2em}           
+.ticker-content a{text-decoration:none;color:#1F527B}           
+.ticker-content a:hover{text-decoration:underline;color:#0D3059}           
+.ticker-swipe{padding-top:9px;position:absolute;top:0;background-color:#f8f0db;display:block;width:800px;height:23px}           
+.ticker-swipe span{margin-left:1px;background-color:#f8f0db;border-bottom:1px solid #1F527B;height:12px;width:7px;display:block}           
+.ticker-controls{padding:8px 0 0;list-style-type:none;float:left}           
+.ticker-controls li{padding:0;margin-left:5px;float:left;cursor:pointer;height:16px;width:16px;display:block}           
+.ticker-controls li.jnt-play-pause{background-image:url(../images/controls.png);background-position:32px 16px}           
+.ticker-controls li.jnt-play-pause.over{background-position:32px 32px}           
+.ticker-controls li.jnt-play-pause.down{background-position:32px 0}           
+.ticker-controls li.jnt-play-pause.paused{background-image:url(../images/controls.png);background-position:48px 16px}           
+.ticker-controls li.jnt-play-pause.paused.over{background-position:48px 32px}           
+.ticker-controls li.jnt-play-pause.paused.down{background-position:48px 0}           
+.ticker-controls li.jnt-prev{background-image:url(../images/controls.png);background-position:0 16px}           
+.ticker-controls li.jnt-prev.over{background-position:0 32px}           
+.ticker-controls li.jnt-prev.down{background-position:0 0}           
+.ticker-controls li.jnt-next{background-image:url(../images/controls.png);background-position:16px 16px}           
+.ticker-controls li.jnt-next.over{background-position:16px 32px}           
+.ticker-controls li.jnt-next.down{background-position:16px 0}           
+.js-hidden{display:none}           
+.no-js-news{padding:10px 0 0 45px;color:#F8F0DB}           
+.left .ticker-controls,.left .ticker-content,.left .ticker-title,.left .ticker{float:left}           
+.left .ticker-controls{padding-left:6px}           
+.right .ticker-controls,.right .ticker-content,.right .ticker-title,.right .ticker{float:right}           
+.right .ticker-controls{padding-right:6px}           
+       
+.ticker-wrapper.has-js{margin:0 0 -200px;padding:0;width:98%;min-height:242px;display:block;border-radius:0;background-color:#fff;border:0 solid #eee;font-size:12px;overflow:hidden}           
+.ticker{width:80%;height:42px;display:block;position:relative;overflow:visible;background-color:#fff}           
+.ticker-title{background:#71db00;padding:9px 10px;color:#FFF;font-size:16px;font-family:oswald;text-transform:uppercase;text-shadow:1px 1px 6px #666}           
+.ticker-title:after{left:90px;top:10px;height:0;width:0;position:absolute;content:" ";pointer-events:none;margin-left:0;margin-top:1px;border-left:13px solid #71db00;border-top:10px solid transparent;border-bottom:10px solid transparent;-moz-transform:scale(.9999)}           
+.ticker-content{background-color:#fff;margin-left:18px!important;color:#444;margin-top:1px!important;overflow:visible!important; padding-top: 2px!important;}           
+.ticker-swipe{background-color:#fff;position:relative;top:6px;left:110px!important}           
+.ticker-swipe span{margin-left:1px;background-color:#fff;border-bottom:1px solid #333;height:12px;width:7px}           
+.ticker-controls{padding: 0px!important;margin: 17px 0 0 10px!important;list-style-type:none;position:relative;right:-50px}           
+.ticker-controls li{padding:0;margin-left:5px;float:left;cursor:pointer;height:16px;width:16px;display:block}           
+.ticker-controls li a{border:0px!important; padding:0px!important;}           
+.ticker-controls li.jnt-play-pause,.ticker-controls li.jnt-play-pause.paused,.ticker-controls li.jnt-play-pause.paused.over,.ticker-controls li.jnt-prev,.ticker-controls li.jnt-play-pause.over,.ticker-controls li.jnt-next{position:absolute;background:none}           
+.ticker-controls li.jnt-play-pause:after,.ticker-controls li.jnt-play-pause.over:after{content:"\f04c";font-size:13px;color:#71db00;font-family:fontAwesome;position:relative;left:1.8em}           
+.ticker-controls li.jnt-play-pause.paused:after,.ticker-controls li.jnt-play-pause.paused.over:after{content:"\f04b";font-size:13px;color:#71db00;font-family:fontAwesome;position:relative;left:1.8em}           
+.ticker-controls li.jnt-prev:after{content:"\f04a";font-size:13px;color:#71db00;font-family:fontAwesome;position:relative;left:0}           
+.ticker-controls li.jnt-next:after{content:"\f04e";font-size:13px;color:#71db00;font-family:fontAwesome;position:relative;left:3.6em}           
+.ticker .iauthor:before, .ticker .icomments:before, .ticker .idate:before{font-family:fontAwesome;position:relative;padding-right:8px;color:#fff}           
+.ticker .iauthorpic{width:17px!important;height:17px!important;border-radius:50%;float:none;display:inline-block!important;margin-right:3px;position:relative;           
+top: 6px;border: 1px solid #eeeeee;           
+    -moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, .1);           
+    -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, .1);           
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .1);           
+    padding: 3px;           
+}           
+.ticker span {padding-right:5px; font-family:Oswald; font-weight:normal}           
+.ticker .icomments a{color:#71db00;font-size:11px}           
+.ticker .icomments a:hover{text-decoration:underline}           
+.ticker .icomments:before{content:'\f086';padding:0 3px 0 0px;color:#777;position:relative; top:-1px}           
+.ticker .idate{font-size:11px;padding-right:7px;}           
+.ticker .idate:before{content:'\f073';padding:0 5px;color:#777; position:relative; top:-1px}           
+.ticker .mbttitle{font-family:oswald;font-size:14px;color:#71db00!important;font-weight:400;text-decoration:none;}           
+.ticker .mbttitle:hover{text-decoration:underline} 
+.ticker .tooltip{outline:none;text-decoration:none!important;position:relative}           
+.ticker .tooltip strong{line-height:30px}           
+.ticker .tooltip > span{width:290px; white-space: normal; padding:15px 15px 0px 15px;opacity:0;top:170%;visibility:hidden;z-index:10;position:absolute;font-family:Arial;font-size:12px;font-style:normal;border-radius:2px;box-shadow:2px 2px 5px #999;-webkit-transition-property:opacity,margin-top,visibility,margin-left;-webkit-transition-duration:0.4s,0.3s,0.4s,.3s;-webkit-transition-timing-function:ease-in-out,ease-in-out,ease-in-out,ease-in-out;transition-property:opacity,margin-top,visibility,margin-left;transition-duration:0.4s,0.3s,0.4s,.3s;transition-timing-function:ease-in-out,ease-in-out,ease-in-out,ease-in-out}           
+.ticker .tooltip > span img{float:right;width:130px;margin:0 0 30px 10px;padding: 0;border: none;}           
+.ticker .tooltip:hover > span{opacity:1;text-decoration:none;visibility:visible;overflow:visible;display:inline;margin-left:0px}           
+.ticker .tooltip span b{width:15px;height:15px;margin-left:20px;bottom:-9px;display:block;position:absolute;-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-o-transform:rotate(-45deg);transform:rotate(-45deg);display:none\0/;*display:none}           
+.ticker .tooltip > span{color:#fff; background:#71db00;border:1px solid #94fb26}           
+.ticker .tooltip span b{margin-top:-19px;top:10px;background:#71db00;border-top:1px solid #94fb26;border-right:1px solid #94fb26;border-bottom:1px solid #71db00;border-left:1px solid #71db00}
+        
+@media only screen and (max-width:480px) {          
+.ticker-content {margin-left: -5px!important;padding-top: 4px!important;}.ticker-title{font-size:10px!important;padding:5px!important;}           
+.ticker-controls, .ticker .icomments, .ticker .idate, .ticker .iauthor, .ticker .iauthorpic, .ticker-title:after {display:none;}} 
