@@ -1,0 +1,5 @@
+#search-azirah.aktif{transform:scaleY(1);-webkit-transform:scaleY(1);-ms-transform:scaleY(1)}
+#bsearchbox{width:700px;max-width:100%;margin:0 auto;position:relative}
+input#searchteks{font-size:15px;padding:14px 20px;border:1px solid #ffd7b0;border-radius:4px;width:100%;font-weight:600;color:#555}
+button.bsearchbtn{position:absolute;top:0;font-weight:700;background:linear-gradient(135deg,#f72762 0,#f9a322 100%);text-transform:uppercase;color:#fff;border-radius:0 4px 4px 0;border:none;font-size:18px;width:120px;height:49px;line-height:49px;right:0;cursor:pointer}
+button.bsearchbtn:hover{opacity:.9}
