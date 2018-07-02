@@ -1,0 +1,18 @@
+#header,.header-wrap{position:relative;height:70px}
+#blog-pager,#header .description,div#topnav h2,h2.date-header{display:none}
+.Header h1,.Header p,.listmdc li a{font-weight:700;line-height:70px;text-transform:uppercase}
+.Header h1,.Header p,.listmdc li a,.navmenu li a{text-transform:uppercase}
+.footer h2,.sidebar h2,.techirshloader a{vertical-align:middle}
+.header-wrap{width:100%;background:#000;color:#fff;transition:all .4s ease}
+#head-position{padding:0;margin:0 auto;position:sticky;top:0;z-index:999}
+.header-wrap.sticky{background:#fff;box-shadow:0 0 5px 2px rgba(0,0,0,.1)}
+.header-wrap.sticky .Header h1,.header-wrap.sticky .Header h1 a,.header-wrap.sticky .Header p{color:#000}
+.header-wrap.sticky .Header h1 a:first-letter,.header-wrap.sticky .Header h1:first-letter,.header-wrap.sticky .Header p:first-letter{color:red}
+#header{width:auto;float:left;margin:0 15px}
+.header-content{margin:0 auto;overflow:hidden}
+.Header h1,.Header p{font-size:30px;opacity:0}
+.Header h1 a,.Header p{color:#fff}
+.Header h1 a:first-letter,.Header h1:first-letter,.Header p:first-letter{color:red}
+#header-inner{margin:0 0 10px;padding:0;overflow:hidden}
+.logo-wrapper{position:absolute;left:0;top:10px;width:270px;height:50px;line-height:70px}
+.logo-wrapper img{width:100%;height:100%}
